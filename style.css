@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+    
+}
+
+.roboto {
+}
+.start {
+    background-color: rgb(0, 0, 84);
+    color: white;
+}
+
+
+
+.header-start{
+    color: white;
+    display: flex;
+    flex-flow: column;
+}
+
+.container-header{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.slider {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-between;
+
+
+}
+
+.slider ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    margin: 0;
+
+}
+
+
+#header-logo {
+    font-size: 25px;
+    padding-top: 0;
+
+}
